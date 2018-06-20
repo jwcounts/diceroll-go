@@ -26,7 +26,7 @@ func main() {
 		return
 	} else {
 		shell := ishell.New()
-		shell.Println("Welcome to DiceRoller.\nYou can roll dice by typing 'roll #d#'.")
+		shell.Println("Welcome to DiceRoll-Go.\nYou can roll dice by typing 'roll #d#'.")
 
 		shell.AddCmd(&ishell.Cmd{
 			Name: "roll",
