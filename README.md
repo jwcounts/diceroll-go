@@ -7,7 +7,8 @@ To use is staticly, just call it in the command line and put the number of dice 
 
 ```> diceroll-go 3d8
 7, 4, 8
-Total: 19```
+Total: 19
+```
 
 If you call it without any arguments, it will go into an interactive shell:
 
@@ -16,4 +17,5 @@ Welcome to DiceRoll-Go.
 You can roll dice by typing 'roll #d#'.
 >>> roll 3d8
 7, 4, 8
-Total: 19```
+Total: 19
+```
