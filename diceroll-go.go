@@ -50,7 +50,7 @@ func main() {
 func IsValidDie(dice int) bool {
 	switch dice {
 	case
-		2, 4, 6, 8, 10, 12, 20:
+		2, 4, 6, 8, 10, 12, 20, 100:
 		return true
 	}
 	return false
